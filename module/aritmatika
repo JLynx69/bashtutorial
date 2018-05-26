@@ -1,0 +1,31 @@
+echo -e "\e[1;32mOperasi Aritmatika
+------------------
+\e[0mJadi Bash bisa berhitung mengolah angka namun karena bash ini :v bahasa program jadi matematika nya agak? :v Wkwkwkwk
+Oke Add New Tab Jalankan perintah ini untuk berhitung di bash
+
+#Kode Untuk +
+Input  ->$ echo "\"1 + 1="\" "$\[1+1]"
+Output ->   1 + 1 = 2
+Oke :v di atas jelas itu Tambahan :v bocah esde juga tau 1 + 1 = 2 :v
+
+#Kode Untuk -
+Input  ->$ echo "\"2 - 1="\" "$\[2-1]"
+Output ->    2 - 1 = 1
+:v Yups ntu Pengurangan oke gud next
+
+#Kode Untuk x
+Input  ->$ echo "\"2 x 3="\" "$\[2*3]"
+Output ->   2 x 3 = 6
+:v Gud jelas di atas perkalian
+
+#Kode Untuk : cukup tools sadja yg dibagi cinta jangan :v eaaa
+Input  ->$ echo "\"9 : 3="\" "$\[9/3]"
+Output ->    9 : 3 = 3
+Oke di atas pembagian :v
+
+Bash Juga Bisa Ngitung :v
+Oke Tq :v
+Pilih New Tab Pada Terminal Dan Mulai Lah Membuat Sebuah Program Dasar Dan Buka bash Tutorial"
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+
+read ulang
