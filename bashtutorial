@@ -80,7 +80,7 @@ cd bashtutorial
 chmod +x *
 exit
 cd ..
-cd bashtutorial
+ls
 fi
 #Pilihan No 99
 if [ $pilih -eq "99" ]; then
