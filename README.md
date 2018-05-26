@@ -4,13 +4,13 @@ Bash Programing Tutorial
 tools untuk belajar bash programing
 
 Cara Install :
+
 buka terminal lalu ketik
 
-# git clone https://github.com/JLynx69/bashtutorial
+* git clone https://github.com/JLynx69/bashtutorial
 
-# cd bashtutorial
+* cd bashtutorial
 
-# chmod +x *
-
+* chmod +x *
 
 tq :)
