@@ -31,6 +31,7 @@ echo "5.Aritmatika"
 echo "6.Vim"
 echo "7.Tmux"
 echo -e "\nKetik 00 untuk Latihan"
+echo -e "Ketik 88 untuk update"
 echo -e "ketik 99 untuk Support\n"
 echo -n "Masukan Angka : "
 read pilih
@@ -68,6 +69,14 @@ fi
 #Pilihan No 00
 if [ $pilih -eq "00" ]; then
 bash module/latihan
+fi
+#Pilihan No 88
+if [ $pilih -eq "88" ]; then
+cd ..
+rm -rf bashtutorial
+git clone https://github.com/JLynx69/bashtutorial
+cd bashtutorial
+chmod +x *
 fi
 #Pilihan No 99
 if [ $pilih -eq "99" ]; then
