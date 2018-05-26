@@ -85,7 +85,7 @@ if [ $pilih -eq "99" ]; then
 bash module/support
 fi
 #Code Pengulangan
-echo "Pilih n jika setelah update !"
+echo ""
 echo -n -e "\e[1;31mMau Lanjut kaga? (pilih y/n): "
 read ulang
 done
