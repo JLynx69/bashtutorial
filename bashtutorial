@@ -20,7 +20,7 @@ echo -e "\e[1;32m\n\t\t___________________________________________"
 echo -e "\e[1;32m\n\t\t{+} Welcome To Bash Programing Tutorial {+}"
 echo -e "\e[1;32m\t\t  {+}   By : ${blue}J_Lynx69 & ${yellow}Mr_/bon'007   ${green}{+}"
 echo -e "\e[1;32m\t\t    {+}   ${red}AndroSec1337 Cyber Team   ${green}{+}"
-echo -e "\e[1;32m\t\t\t  {+} Beta Version 0.6 {+}\n"
+echo -e "\e[1;32m\t\t\t  {+} Beta Version 1.0 {+}\n"
 echo -e "\e[1;32m\t\t___________________________________________"
 echo -e "\e[0mPilih mana yang ingin anda ketahui?"
 echo "1.Apa itu bash?"
@@ -33,7 +33,8 @@ echo "7.Tmux"
 echo -e "\nKetik 00 untuk Latihan"
 echo -e "Ketik 88 untuk update"
 echo -e "ketik 99 untuk Support\n"
-echo -n "Masukan Angka : "
+echo -e "\n\e[1;31mTekan CTRL+C untuk keluar\n"
+echo -n "\e[0mbashtutor > "
 read pilih
 clear
 bash module/loading
