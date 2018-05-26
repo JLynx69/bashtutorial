@@ -1,0 +1,84 @@
+#!/bin/bash
+#
+#Copyright (C) 2018 Jack O'neil & Mr_/bon'007
+#
+#email : wisnurakadewa@gmail.com
+#email : root_bon007@androsec1337.com
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+#Header
+ulang='y'
+while [ $ulang == 'y' ]
+do
+clear
+echo -e "\e[1;32m\n\t\t___________________________________________"
+echo -e "\e[1;32m\n\t\t{+} Welcome To Bash Programing Tutorial {+}"
+echo -e "\e[1;32m\t\t  {+}   By : ${blue}J_Lynx69 & ${yellow}Mr_/bon'007   ${green}{+}"
+echo -e "\e[1;32m\t\t    {+}   ${red}AndroSec1337 Cyber Team   ${green}{+}"
+echo -e "\e[1;32m\t\t\t  {+} Beta Version 0.6 {+}\n"
+echo -e "\e[1;32m\t\t___________________________________________"
+echo -e "\e[0mPilih mana yang ingin anda ketahui?"
+echo "1.Apa itu bash?"
+echo "2.Contoh"
+echo "3.Variabel"
+echo "4.Variabel Spesial"
+echo "5.Aritmatika"
+echo "6.Vim"
+echo "7.Tmux"
+echo -e "\nKetik 00 untuk Latihan"
+echo -e "ketik 99 untuk Support\n"
+echo -n "Masukan Angka : "
+read pilih
+clear
+bash module/loading
+#
+#Pilihan No 1
+if [ $pilih -eq "1" ]; then
+bash module/pilihan1
+fi
+#Pilihan No 2
+if [ $pilih -eq "2" ]; then
+bash module/pilihan2
+fi
+#Pilihan No 3
+if [ $pilih -eq "3" ]; then
+bash module/variabel
+fi
+#Pilihan No 4
+if [ $pilih -eq "4" ]; then
+bash module/variabelspesial
+fi
+#Pilihan No 5
+if [ $pilih -eq "5" ]; then
+bash module/aritmatika
+fi
+#Pilihan No 6
+if [ $pilih -eq "6" ]; then
+bash module/vim
+fi
+#Pilihan No 7
+if [ $pilih -eq "7" ]; then
+bash module/tmux
+fi
+#Pilihan No 00
+if [ $pilih -eq "00" ]; then
+bash module/latihan
+fi
+#Pilihan No 99
+if [ $pilih -eq "99" ]; then
+bash module/support
+fi
+#Code Pengulangan
+echo ""
+echo -n -e "\e[1;31mMau Lanjut kaga? (pilih y/n): "
+read ulang
+done
+clear
+echo -e "\e[1;33m\n\tSorry Kalo masih Gak Karuan maklum masih tahap percobaan"
+echo -e "\e[1;33m\t\t\t\t++"
+echo -e "\e[1;33m\t\t\tW masih Nub mhank :v\n"
