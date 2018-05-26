@@ -79,7 +79,6 @@ git clone https://github.com/JLynx69/bashtutorial
 cd bashtutorial
 chmod +x *
 exit
-clear
 fi
 #Pilihan No 99
 if [ $pilih -eq "99" ]; then
