@@ -71,15 +71,6 @@ fi
 if [ $pilih -eq "00" ]; then
 bash module/latihan
 fi
-#Pilihan No 99
-if [ $pilih -eq "99" ]; then
-bash module/support
-fi
-#Code Pengulangan
-echo ""
-echo -n -e "\e[1;31mMau Lanjut kaga? (pilih y/n): "
-read ulang
-done
 #Pilihan No 88
 if [ $pilih -eq "88" ]; then
 cd ..
@@ -87,9 +78,17 @@ rm -rf bashtutorial
 git clone https://github.com/JLynx69/bashtutorial
 cd bashtutorial
 chmod +x *
-cd ..
-cd bashtutorial
+exit
 fi
+#Pilihan No 99
+if [ $pilih -eq "99" ]; then
+bash module/support
+fi
+#Code Pengulangan
+echo "Pilih n jika setelah update !"
+echo -n -e "\e[1;31mMau Lanjut kaga? (pilih y/n): "
+read ulang
+done
 clear
 echo -e "\e[1;33m\n\tSorry Kalo masih Gak Karuan maklum masih tahap percobaan"
 echo -e "\e[1;33m\t\t\t\t++"
