@@ -1,0 +1,44 @@
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+echo -e "\e[1;32m2.Contoh !!!
+
+\e[1;0m
+Buat sebuah file dengan nama bebas. Anda dapat menggunakan editor apa saja yang Anda kehendaki, vi, vim, emacs, nano, gedit, dll. Kemudian ketikkan script berikut:
+\e[1;32m+================================================+
+|#!/bin/bash                                     |
+|echo "\"Hello World!"\"                             |
+|echo "\"Anda sedang berada di direktori ""$\PWD"""\"     |
++================================================+
+\e[1;0m
+Simpan file, kemudian rubah hak akses file tersebut agar dapat dieksekusi:
+
+\e[1;32m--------------------------------------------------
+|$ chmod 755 hello                               |
+--------------------------------------------------
+\e[1;0m
+Jalankan shell script pertama kita:
+
+\e[1;32m--------------------------------------------------
+|$ ./hello                                       |
+|Hello World!                                    |
+|Anda sedang berada di direktori /home/user/Docum|
+|ents/Writing/Code/bash                          |
+--------------------------------------------------
+\e[1;0m
+Penjelasan untuk script hello:
+
+#!/bin/bash menyatakan bahwa script tersebut harus dijalankan di bash shell. /bin/bash merupakan lokasi dari bash interpreter yang akan menerjemahkan dan menjalankan bash script. Anda dapat mendapatkan lokasi ini dengan menjalankan perintah:
+
+\e[1;32m--------------------------------------------------
+|$ which bash                                    |
+|/bin/bash                                       |
+--------------------------------------------------
+\e[1;0m
+"$\PWD" merupakan sebuah variabel yang sudah didefinisikan oleh bash. Dengan meletakkan variabel dalam tanda petik dua (“), bash akan mengganti pernyataan variabel tersebut dengan nilainya, kemudian barulah perintah (dalam kasus ini perintah echo) dijalankan. Nilai variabel "$\PWD" adalah path direktori aktif, layaknya output dari perintah pwd."
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+read ulang

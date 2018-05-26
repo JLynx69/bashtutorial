@@ -1,0 +1,17 @@
+echo -e "\e[1;32mVariabel Khusus Lainya
+Tutorial Bash Scripting
+Variabel Khusus Lainnya
+Ada beberapa variabel lain yang disetel oleh sistem untuk Anda gunakan juga.
+"$\0" - Nama skrip Bash.
+"$\1" - "$\9" - 9 argumen pertama ke skrip Bash. (Seperti yang disebutkan di atas.)
+"$\#" - Berapa banyak argumen yang dilewatkan ke skrip Bash.
+"$\@" - Semua argumen diberikan ke skrip Bash.
+"$\?" - Status keluar dari proses yang paling baru dijalankan.
+"$\$" - ID proses dari skrip saat ini.
+"$\USER" - Nama pengguna dari pengguna yang menjalankan skrip.
+"$\HOSTNAME" - Nama host dari mesin yang menjalankan skrip.
+"$\SECONDS" - Jumlah detik sejak skrip dimulai.
+"$\RANDOM" - Mengembalikan nomor acak yang berbeda setiap kali dirujuk.
+"$\LINENO" - Mengembalikan nomor baris saat ini di skrip Bash"
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+read ulang

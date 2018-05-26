@@ -1,0 +1,22 @@
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+echo -e "\e[1;32m4.Support
+\e[0mBuat yg \e[1;34m[suka] \e[0mataupun \e[1;31m[kurang suka] \e[0mdengan program sederhana ini
+kirimkan Kritik dan Saran mu ke akun di bawah ini...!!!
+
+Email : ${red}joetac210@gmail.com
+Email : root_bon007@androsec1337.com
+\e[0mfacebook : ${blue}Jack Lynx  |  ${yellow}M Julius
+
+\e[0mKalau kalian suka dengan program ini
+Mungkin akan saya kembangkan lagi
+dan menambah lebih banyak Penjelasan dan contohnya.
+Tq :v"
+
+echo -e "\e[1;32mTekan Enter Untuk Melanjutkan"
+read ulang

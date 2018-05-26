@@ -1,0 +1,19 @@
+echo -e "\e[1;32mVariabel
+--------
+\e[0mSeperti halnya bahasa pemrograman yang lain, shell programming dalam hal ini adalah bash, juga mempunyai fasilitas variabel. Namun berbeda dengan beberapa bahasa pemrograman lain yang membutuhkan deklarasi variabel terlebih dahulu sebelum digunakan, dalam shell, variabel baru dideklarasikan ketika akan dipakai.
+Didalam shell variabel dapat diakses dengan menggunakan karakter $. sebagai contoh : (Baris dengan $ adalah input konsol, baris tanpa $ adalah output konsol)
+$ nama=Linux
+$ echo "$\nama"
+Linux
+$ echo nama
+nama
+$ nama="LinuX XuniL"
+$ echo nama
+LinuX XuniL
+$ nama=1+1
+$ echo nama
+1+1"
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+
+read ulang
+

@@ -1,0 +1,85 @@
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+echo -e "\e[1;32m\n1.Apa Itu Vim?
+
+Vim adalah editor teks bawaan semua sistem operasi berbasis Unix seperti Solaris dan IBM AIX serta sistem operasi Unix-like termasuk *BSD dan GNU/Linux.
+Di sistem operasi tersebut, Vim biasa dipakai untuk mengatur konfigurasi sistem / mengedit isi suatu file.
+Vim bisa dipakai untuk keperluan yang lebih banyak; menulis karya tulis, menulis program, menulis blog, dan menulis hal-hal lain. 
+
+Instalisai Vim?
+
+ketik perintah
+
+$ apt-get install vim
+
+$ vim belajarbash.txt
+
+Oke itu tahap instalasi dan pembukaan awal dan mengcreate suatu file baru
+jadi saya akan share perintah dasar di vim
+setelah masuk ada beberapa opsi
+
+Ketik 
+______________________________
+Selamat datang di bashtutorial
+______________________________
+
+Save?
+Untuk melakukan save setelah melakukan perubahan pada file, tekan ESC lalu masukkan perintah :w
+:w disini berarti write.
+
+Save and Exit?
+Setelah melakukan perubahan dan ingin menyimpan file sekaligus keluar dari editor, tekan ESC lalu masukkan perintah :wq
+:wq sendiri berarti write and quit .
+
+Exit without Save
+Nah yang terakhir adalah saat kita sudah memasukkan beberapa perubahan pada file namun ternyata ingin membatalkan.
+Kita bisa keluar dari editor tanpa menyimpan perubahan yang kita buat. 
+Tekan ESC lalu masukkan perintah :q!
+
+Jangan lupa tekan enter setelah memasukkan perintah diatas.
+
+Menulis Text
+i : Memulai menulis, modus (INSERT)
+o : Memulai menulis, modus (INSERT) dan menambahkan baris kosong dibawah kursor
+O : Memulai menulis, modus (INSERT) dan menambahkan baris kosong diatas kursor
+
+Menghapus Text
+x  : Menghapus karakter yang terdapat di kursor
+X : Menghapus karakter sebelum kursor
+dd : Mengapus satu baris
+D : Menghapus mulai dari awal kursor
+
+Berpindah Text
+h : Berpidah satu karakter ke kiri
+j : Berpidah satu karakter ke bawah
+k : Berpidah satu karakter ke atas
+l : Berpidah satu karakter ke kanan
+w : Maju satu kata (berikutnya)
+b : Mundur satu kata (sebelumnya)
+
+Pembatalan
+u : Pembatalkan penghapusan (undo)
+U : Pembatalkan penghapusan semua dalam satu line (undo)
+crtl + r : Mengembalikan penghapusan (redo)
+
+Perintah Akhir
+:wq : Menyimpan file dan keluar
+:q : Keluar dari editor
+:q! : Keluar dari aplikasi editor tanpa menyimpang file
+:w : Menyimpang text yang sudah ditulis
+
+Pencarian Text
+/kata_yang_ingin_dicari
+n : untuk Next
+N : untuk kembali
+
+Oke menurut w ni udah cukup Tq yg baca
+Pilih New Tab Pada Terminal Dan Mulai Lah Membuat Sebuah Program Dasar Dan Buka bash Tutorial"
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+
+read ulang

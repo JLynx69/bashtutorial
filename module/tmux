@@ -1,0 +1,56 @@
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+echo -e "\e[1;32m\n1.Apa Itu Tmux?
+
+\e[1;0mtmux adalah sebuah terminal multiplexer yang memperbolehkan pengguna untuk mengakses beberapa sesi terminal terpisah di dalam jendela terminal tunggal atau sesi terminal jarak jauh.
+Hal ini berguna untuk menangani beberapa program dari antarmuka baris perintah, dan untuk memisahkan program dari shell Unix yang memulai program.
+[2] tmux menyediakan banyak fungsi yang sama dengan GNU Screen, tetapi didistribusikan di bawah lisensi BSD.
+
+${cyan}Oke ni sumber Wikipedia
+
+\e[1;0mtmux memiliki sebagian besar fitur GNU Screen. 
+Hal ini memungkinkan pengguna untuk memulai sesi terminal dengan klien yang tidak terikat pada konsol fisik atau virtual tertentu; beberapa sesi terminal dapat dibuat dalam sesi terminal tunggal dan kemudian bebas dipindahkan dari satu konsol virtual ke yang lain, dan setiap sesi dapat memiliki beberapa klien yang terhubung.
+Fitur-fitur yang membedakan tmux dari GNU Screen adalah:
+
+${cyan}Fitur${green}
+- Menu untuk menyeleksi sesi yang sedang berjalan, jendela, dan klien
+- Jendela dapat dihubungkan ke sejumlah sesi yang diinginkan
+- Pintasan perintah keyboard seperti di Vi atau Emacs untuk mengatur tmux
+- Konfigurasi yang mudah
+- Keybinding yang dapat dikustomisasi
+
+${cyan}Platform${green}
+tmux didistribusikan secara luas, tmux dapat ditemukan di repositori perangkat lunak dari hampir semua sistem operasi bertipe Unix.
+dan dalam sistem dasar OpenBSD.
+
+${cyan}Instalisasi Tmux?${green}
+Untuk Linux dan yg lainya
+
+${red}$ apt-get install tmux
+
+$ tmux
+
+\e[1;0mUdah Run? oke perintah basicnya
+
+${green}Ctrl-b + %          - membuat panel horizontal
+Ctrl-b + \"          - membuat panel vertikal
+Ctrl-b + x          - menutup panel
+Ctrl-b + q          - menampilkan nomor panel
+Ctrl-b + o          - pindah ke panel selanjutnya
+Ctrl-b + {          - tukar panel dengan panel sebelumnya
+Ctrl-b + }          - tukar panel dengan panel sesudahnya
+Ctrl-b + atas       - pindah ke panel atas
+Ctrl-b + bawah      - pindah ke panel bawah
+Ctrl-b + kanan      - pindah ke panel kanan
+Ctrl-b + kiri       - pindah ke panel kiri
+Ctrl-b + t          - menampilkan waktu pada panel yang sedang aktif
+
+\e[1;0mOke gan silahkan dipraktekkin ndiri."
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+
+read ulang

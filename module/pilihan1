@@ -1,0 +1,22 @@
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+echo -e "\e[1;32m\n1.Apa Itu bash?
+
+\e[1;0mSingkatnya, bash merupakan sebuah program komputer seperti halnya program-program lain pada komputer, namun bash didesain agar Anda dapat berkomunikasi dengannya melalui perintah yang Anda berikan dan respon yang Anda terima.
+
+Setiap program di komputer memiliki kemampuan untuk dapat mengerjakan tugas-tugas spesifik yang membantu memudahkan pekerjaan user, antara lain memutar lagu, mengakses website, melakukan penghitungan, dan lain sebagainya. Akan tetapi, bash tidak melakukan tugas-tugas tersebut. Bash berperan untuk menerima perintah dari Anda sebagai user dan mengerjakan perintah tersebut. Sehingga, agar Anda dapat memberikan perintah yang dapat dimengerti oleh bash dengan baik, diciptakanlah bahasa untuk komunikasi tersebut. Bahasa itulah yang disebut bahasa bash shell.
+
+Bash (Bourne Again shell) hanya merupakan salah satu dari beberapa program yang bertindak untuk menerima perintah dari user untuk berinteraksi dengan program lain. Program seperti ini dikenal sebagai program shell. Beberapa program shell yang terkemuka selain bash antarai lain 
+ -Bourne shell(sh)
+ -C shell(csh)
+ -Korn shell(ksh)
+ -Bourne again shell(bash)
+ -Zshell (zsh) 
+Masing-masing shell memiliki bahasa yang berbeda, meskipun dijumpai banyak kesamaan perintah-perintah yang digunakan. Perlu diingat bahwa artikel ini akan membahas mengenai pemrograman bash shell, sehingga pastikan bahwa Anda mengeksekusi kode bash shell pada bash shell, bukan shell yang lain."
+echo -e "\e[1;32m\nTekan Enter Untuk Melanjutkan"
+read ulang
