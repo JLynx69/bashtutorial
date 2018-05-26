@@ -34,7 +34,7 @@ echo -e "\nKetik 00 untuk Latihan"
 echo -e "Ketik 88 untuk update"
 echo -e "ketik 99 untuk Support\n"
 echo -e "\n\e[1;31mTekan CTRL+C untuk keluar\n"
-echo -n "\e[0mbashtutor > "
+echo -n -e "\e[0mbashtutor > "
 read pilih
 clear
 bash module/loading
