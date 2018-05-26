@@ -13,4 +13,6 @@ buka terminal lalu ketik
 
 * chmod +x *
 
+* ./bashtutorial
+
 tq :)
