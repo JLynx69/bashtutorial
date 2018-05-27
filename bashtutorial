@@ -90,3 +90,4 @@ done
 clear
 echo -e "\e[1;33m\n\tSemoga Bermanfaat dan Berguna bagi massa depan"
 echo -e "\e[1;33m\t\tThanks For Using Bashtutorial\n"
+echo -e "\e[0m"
