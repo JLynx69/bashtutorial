@@ -88,6 +88,5 @@ echo -n -e "\e[1;31mMau Lanjut kaga? (pilih y/n): "
 read ulang
 done
 clear
-echo -e "\e[1;33m\n\tSorry Kalo masih Gak Karuan maklum masih tahap percobaan"
-echo -e "\e[1;33m\t\t\t\t++"
-echo -e "\e[1;33m\t\t\tW masih Nub mhank :v\n"
+echo -e "\e[1;33m\n\tSemoga Bermanfaat dan Berguna bagi massa depan"
+echo -e "\e[1;33m\t\t\tThanks For Using Bashtutorial\n"
