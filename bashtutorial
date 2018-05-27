@@ -75,11 +75,8 @@ fi
 if [ $pilih -eq "88" ]; then
 cd ..
 rm -rf bashtutorial
-git clone https://github.com/JLynx69/bashtutorial
-cd bashtutorial
-chmod +x *
+git clone https://github.com/JLynx69/bashtutorial && cd .. && cd bashtutorial && chmod +x *
 exit
-cd ..
 fi
 #Pilihan No 99
 if [ $pilih -eq "99" ]; then
